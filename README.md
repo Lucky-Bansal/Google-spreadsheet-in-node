@@ -5,32 +5,31 @@ In this tutorial, You will learn how to get data from google sheet and how to in
 
 **First things first**
 
-- Login into your Google console account.
+1. Login into your Google console account.
 
-- Create a project and name your project as you wish.
+2. Create a project and name your project as you wish.
 
-- Enable **API AND SERVICES** in your account if not enabled.
+3. Enable **API AND SERVICES** in your account if not enabled.
 
-- Scroll down to the Google Drive API.
+4. Scroll down to the Google Drive API.
 
-- Click on the Enable button.
+5. Click on the Enable button.
 
-- After enabling it Click on the CREATE CREDENTIALS.
+6. After enabling it Click on the CREATE CREDENTIALS.
 
-- Select Google Drive API and Web server from the two dropdown respectively.
+7. Select Google Drive API and Web server from the two dropdown respectively.
 
-- Select Application Data in **What Data you will be accessing** and **, I am not using them** in other section.
+8. Select Application Data in **What Data you will be accessing** and **, I am not using them** in other section.
 
-- Click on **What credentials do i need** button.
+9. Click on **What credentials do i need** button.
 
+10. Give a name to your service account and select Prject>Editor.
 
-- Give a name to your service account and select Prject>Editor.
+11. Click on the Continue button.
 
-- Click on the Continue button.
+12. On clicking continue button. It will download a json file. Save it in your working directory.
 
-- On clicking continue button. It will download a json file. Save it in your working directory.
-
-- Now open this file, copy the **client_email** and give access to this email in google sheet.
+13. Now open this file, copy the **client_email** and give access to this email in google sheet.
 
 > Getting into the code
 
